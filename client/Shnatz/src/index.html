@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Shnatz</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+</body>
+<!-- Firebase App is always required and must be first -->
+<script src="https://www.gstatic.com/firebasejs/5.0.1/firebase-app.js"></script>
+
+<!-- Add additional services you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.0.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.0.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.0.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.0.1/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.0.1/firebase-functions.js"></script>
+
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBZw6VyDQGvU_W5Yl1le757uOkXditWOtU",
+    authDomain: "trytry-b24c8.firebaseapp.com",
+    databaseURL: "https://trytry-b24c8.firebaseio.com",
+    projectId: "trytry-b24c8",
+    storageBucket: "trytry-b24c8.appspot.com",
+    messagingSenderId: "879603139713"
+  };
+  firebase.initializeApp(config);
+</script>
+</html>
