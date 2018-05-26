@@ -20,9 +20,11 @@ export class AppComponent {
     };
     firebase.initializeApp(config);
   }
+
   login() {
     this.afAuth.auth.signInWithPopup(new auth.GoogleAuthProvider());
   }
+
   logout() {
     this.afAuth.auth.signOut();
   }
